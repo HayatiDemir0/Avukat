@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter",sans-serif;
+}
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .container{
+    padding: 20px;
+    margin: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+}
+header .navbar{
+    padding: 10px 0;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 20px 40px;
+    justify-content: center;
+}
+.navbar ul li{
+    font-weight: bold;
+    font-size: large;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+}
+.navbar ul li a:hover{
+    color: bisque;
+}
+section{
+    display: flex;
+    text-align: center;
+}
+section .image{
+    background-image: url(img/2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .image .ar{
+    display: inline-block;
+    font-size: x-large;
+}
+.image .ar h2{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 72px;
+    background-color: rgba(0,0,0,0.5);
+}
+.image .ar button{
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
+    margin: 10px ;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.image .ar button:hover{
+    background-color: black;
+    color: white;
+}
+.info-section {
+  display: flex;
+  background: #b9966c;
+  padding: 50px 20px;
+  text-align: center;
+  color: white;
+}
+
+.info-box {
+  flex: 1;
+  margin: 20px 30px;
+  padding: 20px 40px;
+  border-right: 1px solid rgba(255,255,255,0.3);
+}
+
+.info-box:last-child {
+  border-right: none;
+}
+
+.info-box i {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.info-box h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.info-box p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 8%;
+    gap: 60px;
+}
+.about-text {
+    flex: 1;
+}
+.about-text h2 {
+    font-size: 40px;
+    margin-bottom: 25px;
+    font-weight: 800;
+}
+.about-text p {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    color: #444;
+}
+.about-image {
+    position: relative;
+    flex: 1;
+    max-width: 500px;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 6px;
+    position: relative;
+    z-index: 2;
+}
+
+.img-border {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 100%;
+    height: 100%;
+    border: 6px solid #b0b0b0;
+    border-radius: 6px;
+    z-index: 1;
+}
+.footer {
+    position: relative;
+    background: url("img/footer-bg.jpg") center/cover no-repeat;
+    color: #fff;
+    padding: 70px 0;
+}
+
+.footer-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.footer-container {
+    position: relative;
+    z-index: 2;
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+.footer-line {
+    border: none;
+    border-top: 1px solid #b68a46;
+    margin: 30px 0;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.footer-box {
+    width: 30%;
+}
+
+.footer-box h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #e3c286;
+}
+
+.footer-box p {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-bottom {
+    margin-top: 30px;
+    padding-top: 10px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: #ffffff;
+    opacity: 0.7;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    opacity: 1;
+}
+
+.footer-social a {
+    font-size: 20px;
+    margin: 0 12px;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.footer-social a:hover {
+    color: #e3c286;
+}
+
+
+
+
+
