@@ -14,7 +14,10 @@ Bu proje, Gebze merkezli **Av. Erhan Karabacak** için hazırlanan bir web sites
 ---
 
 ## 🛠 Teknolojiler
-
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=html" height="50" title="HTML5"/>
+  <img src="https://skillicons.dev/icons?i=css" height="50" title="CSS3"/>
+</p>
 * HTML5
 * CSS3 (Flexbox)
 * Google Fonts (Inter)
